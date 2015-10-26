@@ -20,7 +20,7 @@ public class TranslatorServiceTest {
     TranslatorService translatorService;
     @Test
     public void translateTest() throws Exception {
-        TranslatedText translatedText = translatorService.translate("en", "es", "The worl is mine");
+        TranslatedText translatedText = translatorService.translate("en", "es", "The world is mine");
         assertEquals("El mundo es mío",translatedText.getTranslation());
     }
 
