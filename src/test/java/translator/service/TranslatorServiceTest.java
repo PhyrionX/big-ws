@@ -20,8 +20,8 @@ public class TranslatorServiceTest {
     TranslatorService translatorService;
     @Test
     public void translateTest() throws Exception {
-        TranslatedText translatedText = translatorService.translate("en", "es", "I love the subject of web engineering");
-        assertEquals("Me encanta la asignatura de ingeniería web",translatedText.getTranslation());
+        TranslatedText translatedText = translatorService.translate("en", "es", "The worl is mine");
+        assertEquals("El mundo es mío",translatedText.getTranslation());
     }
 
 }
